@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/BookCourt.jpg);
+    font-family: 'Roboto', sans-serif;
+    margin:0px;
+    padding: 0px;
+    top:0px;
+    position: relative;
+}
+
+header {
+    background-color:rgba(64, 34, 24,0.7);
+    height: 80px;
+}
+header h1{
+    text-align: center;
+    margin-top: 0px;
+    color:#eee;
+}
+
+#theForm{
+    width: 40%;
+    background-color:rgba(64, 34, 24,0.7);
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+#tableElement table {
+    background-color:rgba(64, 34, 24,0.7);
+    border: 1px solid #eee;
+}
+#submit{
+    background-color: #C68B59;
+    width: 35%;
+    font-weight: bolder;
+    margin-left: 56%;
+}
+#bookName{
+    margin-left: 40%;
+}
+#bookPrice {
+    margin-left: 41%;
+    width: 35%;
+}
+footer{
+    background-color:rgba(64, 34, 24,0.7);
+    text-align: center;
+    height: 40px;
+    position: relative;
+    top: 0px;
+    margin-top: 365px;
+    
+}
+footer p {
+    font-weight: bolder;
+    color:#eee;
+}

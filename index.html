@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Books Shop</title>
+</head>
+
+<body>
+    <header>
+        <h1>Books Shop</h1>
+    </header>
+    <main>
+        <section id="main">
+
+            <form id="theForm">
+                <fieldset>
+                    <legend>Books Shop</legend>
+                    <label for="bookName">Book name:</label>
+                    <input type="text" id="bookName"><br><br>
+
+                    <label for="bookPrice">Book Price</label>
+                    <select name="bookPrice" id="bookPrice">
+                        <option value="">100JD</option>
+                        <option value="">500JD</option>
+                        <option value="">1000JD</option>
+                    </select><br><br>
+
+                    <input type="submit" value="Submit" id="submit">
+                </fieldset>
+            </form>
+            <div id="tableElement"></div>
+        </section>
+    </main>
+    <footer>
+        <p>ASAC &copy; 2021 </p>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
